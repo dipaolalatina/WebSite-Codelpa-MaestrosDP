@@ -7,6 +7,8 @@ html, body{
     
 }
 
+button:focus {outline:0;}
+
 /*Colores*/
 .c-rojo{color: #E1251B;}
 .c-azulClaro{color: #5B78BB}
@@ -236,4 +238,63 @@ img.icon__contacto{
     img.icon__contacto{
         max-width: 100px;
     }
+}
+
+.preguntas__banner-bg{
+    background-image: url('../../images/banner__preguntas-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.preguntas__bannerHeader{
+    background-color: #E1251B;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 10px 10px 90px;
+    text-transform: uppercase;    
+}
+
+p.preguntas__bannerParrafo{
+    padding: 10px 10px 10px 90px;
+}
+
+.accordion-button::before {
+    flex-shrink: 0;
+    width: 1.15rem;
+    height: 1.25rem;
+    margin-right: 10px;
+    content: "";
+    background-image: url(../../images/flecha.svg);
+    background-repeat: no-repeat;
+    background-size: 1rem;
+    transition: transform .2s ease-in-out;
+}
+
+.accordion-button:not(.collapsed)::before {
+    background-image: url("../../images/flecha-down.svg");
+    transform: rotate(90deg);
+}
+
+.accordion-button::after {display: none;}
+
+.accordion-button{
+    color: #373737;
+    font-weight: 700; 
+}
+
+.accordion-button:focus{
+    color: #5B78BB;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: transparent;
+    box-shadow: none;
+    color: #5B78BB;
+}
+
+.accordion-item{
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom: 1px solid #a8a9a9;
 }
