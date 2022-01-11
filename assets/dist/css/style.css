@@ -84,6 +84,13 @@ a.boton-blanco{
     padding: 20px 0;
 }
 
+@media (min-width: 711px) { 
+    .programa__txt-banner{
+        font-size: .7rem;
+        line-height: .9rem;
+    } 
+}
+
 @media (min-width: 768px) { 
     .programa__txt-banner{
         font-size: 1rem;
