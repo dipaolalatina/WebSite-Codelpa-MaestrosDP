@@ -34,6 +34,11 @@ h2{
     font-weight: 700;
 }
 
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
 h5{
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
@@ -65,8 +70,29 @@ a.boton-blanco{
     font-size: .9rem;
     padding: 15px 25px; 
     text-decoration: none;
-    text-transform: uppercase;
-   
+    text-transform: uppercase;   
+}
+
+a.boton-whatsapp{
+    background-color: #39B54A;
+    background-image: url('../../images/logo__whastapp.svg');
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: .5rem;
+    padding: 15px 60px 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+@media (min-width: 711px) { 
+    a.boton-whatsapp{
+        font-size: .9rem;
+        padding: 15px 70px 15px 25px; 
+    } 
 }
 
 .footer__bgPintura{
@@ -183,5 +209,31 @@ img.programa__iconSvg{
 @media (max-width: 992px) { 
     h5.programa__iconSvgTxt{
         font-size: .75rem;
+    }
+}
+
+.contacto__banner-bg{
+    background-image: url('../../images/banner__contacto-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto__calugasSinFondo{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    padding: 30px 30px;
+}
+
+img.icon__contacto{
+    width: 100%;
+    max-width: 80px;
+}
+
+@media (min-width: 711px) { 
+    img.icon__contacto{
+        max-width: 100px;
     }
 }
