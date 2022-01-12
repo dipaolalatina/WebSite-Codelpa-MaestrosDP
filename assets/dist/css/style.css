@@ -373,3 +373,11 @@ h1.capacitate__bannerHeader{
         font-size: 2rem;   
     }
 }
+
+.comoGano__banner{
+    background-image: url('../../images/banner__comoGano-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 20px;
+}
