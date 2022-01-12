@@ -4,6 +4,7 @@ html, body{
     color: #606161;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    height: 100%;
     
 }
 
@@ -48,6 +49,11 @@ h5{
 
 .bold{
     font-weight: 700; 
+}
+
+.fill { 
+    min-height: 100%;
+    height: 100%;
 }
 
 .textoSombreado{
@@ -297,4 +303,27 @@ p.preguntas__bannerParrafo{
     border-right: 0;
     border-top: 0;
     border-bottom: 1px solid #a8a9a9;
+}
+
+.construccion__pagina-bg {
+    background-image: url('../../images/construccion__bg-pagina.jpg');
+    background-position: 70% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    min-height: 100%;
+    height: 100%;
+    width: 100%;
+}
+
+@media (min-width: 711px) { 
+    .construccion__pagina-bg {
+        background-position: 50% 50%;
+    }
+}
+
+img.btn__whatsappImg{
+    max-width: 50px;
+    position: absolute;
+    bottom: 5%;
 }
