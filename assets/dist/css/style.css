@@ -70,6 +70,29 @@ a.boton-rojo{
     text-transform: uppercase;
 }
 
+button.boton-rojo{
+    background-color: #E1251B;
+    border: 0;
+    border-radius: 60px;
+    color: #fff;
+    font-size: .9rem;
+    padding: 15px 25px;    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button.boton-blanco{
+    background-color: #fff;
+    border: 0;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #E1251B;
+    font-size: .9rem;
+    padding: 15px 25px; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
 a.boton-blanco{
     background-color: #fff;
     border-radius: 60px;
@@ -87,6 +110,22 @@ a.boton-whatsapp{
     background-position: 90% 50%;
     background-repeat: no-repeat;
     background-size: 30px;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: .5rem;
+    padding: 15px 60px 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+button.boton-whatsapp{
+    background-color: #39B54A;
+    background-image: url('../../images/logo__whastapp.svg');
+    background-position: 90% 50%;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border: 0;
     border-radius: 60px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     color: #fff;
