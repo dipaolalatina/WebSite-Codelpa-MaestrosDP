@@ -64,7 +64,7 @@ a.boton-rojo{
     background-color: #E1251B;
     border-radius: 60px;
     color: #fff;
-    font-size: .9rem;
+    font-size: .8rem;
     padding: 15px 25px;    
     text-decoration: none;
     text-transform: uppercase;
@@ -75,7 +75,7 @@ button.boton-rojo{
     border: 0;
     border-radius: 60px;
     color: #fff;
-    font-size: .9rem;
+    font-size: .8rem;
     padding: 15px 25px;    
     text-decoration: none;
     text-transform: uppercase;
@@ -87,7 +87,7 @@ button.boton-blanco{
     border-radius: 60px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     color: #E1251B;
-    font-size: .9rem;
+    font-size: .8rem;
     padding: 15px 25px; 
     text-decoration: none;
     text-transform: uppercase;   
@@ -98,7 +98,7 @@ a.boton-blanco{
     border-radius: 60px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     color: #E1251B;
-    font-size: .9rem;
+    font-size: .8rem;
     padding: 15px 25px; 
     text-decoration: none;
     text-transform: uppercase;   
@@ -214,7 +214,7 @@ button.boton-whatsapp{
 
 @media (min-width: 1200px) { 
     .programa__calugas-1, .programa__calugas-2{
-        background-position: 50% 50%;
+        background-position: 100% 50%;
         min-height: 200px;
     }
  }
@@ -362,9 +362,15 @@ p.preguntas__bannerParrafo{
 }
 
 img.btn__whatsappImg{
-    max-width: 50px;
-    position: absolute;
-    bottom: 5%;
+    max-width: 70px;
+    position: relative;
+}
+
+@media (min-width: 711px) { 
+    img.btn__whatsappImg{
+        position: absolute;
+        bottom: 5%;
+    }
 }
 
 .capacitate__banner{
