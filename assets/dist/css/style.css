@@ -183,7 +183,7 @@ button.boton-whatsapp{
     border-radius: 30px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
-    min-height: 280px;
+    min-height: 355px;
     padding: 45px 40px;
 }
 
@@ -257,6 +257,10 @@ img.programa__iconSvg{
     h5.programa__iconSvgTxt{
         font-size: .75rem;
     }
+}
+
+ul.MP-listado{
+    padding-left: 8rem;
 }
 
 .contacto__banner-bg{
