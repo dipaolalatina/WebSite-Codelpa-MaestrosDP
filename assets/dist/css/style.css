@@ -378,37 +378,21 @@ img.btn__whatsappImg{
 }
 
 .capacitate__banner{
-    background-image: url('../../images/capacitate__bgBanner.jpg');
+    background-image: url('../../images/capacitate/capacitate__banner-bg.jpg');
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    min-height: 100%;    
+    background-size: cover;    
 }
 
 img.capacitate__bannerImg{
-    width: 90%;
-}
-
-p.capacitate__bannerParrafo{
-    color: #373737;
-    font-size: .9rem;
-    font-weight: 800;
-    line-height: 1.3rem;
-    text-transform: uppercase;    
-}
-
-@media (min-width: 711px) { 
-    p.capacitate__bannerParrafo{
-        font-size: 1.1rem;   
-    }
+    width: 75%;
 }
 
 h1.capacitate__bannerHeader{
-    color: #E1251B;
+    color: #011689;
     font-size: 1.1rem;
-    letter-spacing: .4rem;
-    margin: 30px 0px;    
+    margin: 30px 0px;
+    font-weight: 900;  
 }
 
 @media (min-width: 711px) { 
@@ -419,7 +403,20 @@ h1.capacitate__bannerHeader{
 
 @media (min-width: 992px) { 
     h1.capacitate__bannerHeader{
-        font-size: 2rem;   
+        font-size: 1.4rem;   
+    }
+}
+
+p.capacitate__bannerParrafo{
+    color: #011689;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.3rem;  
+}
+
+@media (min-width: 711px) { 
+    p.capacitate__bannerParrafo{
+        font-size: 1.1rem;   
     }
 }
 
