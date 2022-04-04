@@ -432,3 +432,33 @@ p.capacitate__bannerParrafo{
     color: #5B78BB;
     text-decoration: none;
 }
+
+/* TIPS */
+
+h2.tips__title{
+    color: #3D3D3D;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+    h2.tips__title{
+        padding: 0px 100px;
+    }
+}
+
+@media (min-width: 1440px) { 
+    h2.tips__title{
+        padding: 0px 200px;
+    }
+}
+
+p.tips__parrafo{
+    font-size: 18px;
+}
+
+.tips__separador{
+    margin: 40px 0;
+    background-color: #cbcbcb;
+    height: 4px;
+    border-radius: 60px;
+}
