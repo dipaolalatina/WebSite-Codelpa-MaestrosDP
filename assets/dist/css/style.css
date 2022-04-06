@@ -462,3 +462,124 @@ p.tips__parrafo{
     height: 4px;
     border-radius: 60px;
 }
+
+/* Trivias */
+
+.trivias__banner{
+    background-image: url('../../images/trivias/trivias__banner-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+h1.trivias__bannerHeader{
+    color: #011689;
+    font-size: 1.1rem;
+    margin: 0px 0px 30px 0px;
+    font-weight: 900;  
+}
+
+@media (min-width: 711px) { 
+    h1.trivias__bannerHeader{
+        font-size: 1rem;   
+    }
+}
+
+img.trivias__bannerImg{
+    max-width: 683px;
+    width: 75%;
+}
+
+h1.triviasPreguntas__titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.triviasPreguntas__numeral{
+    font-weight: 900;
+    color: #001689;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 711px) { 
+    h1.triviasPreguntas__titulo{
+        font-size: 2rem;
+        font-weight: 700;
+        text-align: left;
+    }
+    
+    .triviasPreguntas__numeral{
+        font-weight: 900;
+        color: #001689;
+        font-size: 2.3rem;
+    }
+}
+
+div.triviasPreguntas__respuestas{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 60px;
+    text-align: left;
+    padding: 10px 8px;
+    margin-top: 5px;
+}
+
+.triviasPreguntas__respuestasRadio {
+    opacity: 0;
+    position: absolute;   
+}
+
+.triviasPreguntas__respuestasRadio, .triviasPreguntas__respuestasLabel {
+    display: inline-block;
+    vertical-align: middle;
+    /* margin: 5px; */
+    cursor: pointer;
+}
+
+.triviasPreguntas__respuestasLabel {
+    position: relative;
+    font-size: 11px;
+}
+
+@media (min-width: 992px) { 
+    .triviasPreguntas__respuestasLabel {
+        position: relative;
+        font-size: 16px;
+    }
+}
+
+.triviasPreguntas__respuestasRadio + .triviasPreguntas__respuestasLabel:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.triviasPreguntas__respuestasRadio + .triviasPreguntas__respuestasLabel:before {
+    border-radius: 50%;
+}
+
+.triviasPreguntas__respuestasRadio:checked + .triviasPreguntas__respuestasLabel:before {
+    background: #ccc;
+    box-shadow: inset 0px 0px 0px 4px #fff;
+}
+
+.triviasPreguntas__respuestasRadio:focus + .triviasPreguntas__respuestasLabel {
+  outline: 0px; /* focus style */
+}
+
+button.triviasPreguntas__formBtn{
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    background-color: #4ECE82;
+    color: #fff;
+    border-radius: 60px;
+    padding: 10px 40px;
+}
