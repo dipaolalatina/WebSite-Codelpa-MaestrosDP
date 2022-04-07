@@ -583,3 +583,38 @@ button.triviasPreguntas__formBtn{
     border-radius: 60px;
     padding: 10px 40px;
 }
+
+iframe.triviasPreguntas__video{
+    width: 100%;
+    height: 200px;
+}
+
+@media (min-width: 711px) { 
+    iframe.triviasPreguntas__video{
+        height: 344px;
+    }
+}
+
+@media (min-width: 768px) { 
+    iframe.triviasPreguntas__video{
+        height: 460px;
+    }
+}
+
+@media (min-width: 992px) { 
+    iframe.triviasPreguntas__video{
+        height: 610px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    iframe.triviasPreguntas__video{
+        height: 750px;
+    }
+}
+
+@media (min-width: 1440px) { 
+    iframe.triviasPreguntas__video{
+        height: 800px;
+    }
+}
