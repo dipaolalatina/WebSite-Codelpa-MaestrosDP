@@ -377,6 +377,8 @@ img.btn__whatsappImg{
     }
 }
 
+/* Capacitate */
+
 .capacitate__banner{
     background-image: url('../../images/capacitate/capacitate__banner-bg.jpg');
     background-position: 50% 50%;
@@ -418,6 +420,22 @@ p.capacitate__bannerParrafo{
     p.capacitate__bannerParrafo{
         font-size: 1.1rem;   
     }
+}
+
+.bg-capacitate__mayo{
+    background-color: #5592a2;
+    color: #fff;
+}
+
+h1.capacitate__mayoTitle{
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+img.capacitate__mayoBtn{
+    width: 75%;
+    max-width: 250px;
+    margin-bottom: 50px;
 }
 
 .comoGano__banner{
