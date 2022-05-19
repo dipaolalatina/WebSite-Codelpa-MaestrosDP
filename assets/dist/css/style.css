@@ -614,9 +614,34 @@ div.triviasPreguntas__respuestas{
     border-radius: 50%;
 }
 
+.triviasPreguntas__respuestasRadio.respuesta_A + .triviasPreguntas__respuestasLabel:before,
+.triviasPreguntas__respuestasRadio.respuesta_B + .triviasPreguntas__respuestasLabel:before,
+.triviasPreguntas__respuestasRadio.respuesta_C + .triviasPreguntas__respuestasLabel:before,
+.triviasPreguntas__respuestasRadio.respuesta_D + .triviasPreguntas__respuestasLabel:before {
+    padding-top: 7px;
+    font-weight: bold;
+}
+
+.triviasPreguntas__respuestasRadio.respuesta_A + .triviasPreguntas__respuestasLabel:before {
+    content: "A";
+}
+
+.triviasPreguntas__respuestasRadio.respuesta_B + .triviasPreguntas__respuestasLabel:before {
+    content: "B";
+}
+
+.triviasPreguntas__respuestasRadio.respuesta_C + .triviasPreguntas__respuestasLabel:before {
+    content: "C";
+}
+
+.triviasPreguntas__respuestasRadio.respuesta_D + .triviasPreguntas__respuestasLabel:before {
+    content: "D";
+}
+
 .triviasPreguntas__respuestasRadio:checked + .triviasPreguntas__respuestasLabel:before {
-    background: #ccc;
-    box-shadow: inset 0px 0px 0px 4px #fff;
+    background: #4ece82;
+    box-shadow: inset 0px 0px 0px 4px #4ece82;
+    color: #fff;
 }
 
 .triviasPreguntas__respuestasRadio:focus + .triviasPreguntas__respuestasLabel {
