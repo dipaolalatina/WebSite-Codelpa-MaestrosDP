@@ -220,12 +220,12 @@ button.boton-whatsapp{
  }
 
 .programa__calugas-1{
-    background-image: url('../../images/caluga__home-1.jpg');
+    background-image: url('../../images/plataforma_junio/junio__caluga3-bg.jpg');
     
 }
 
 .programa__calugas-2{
-    background-image: url('../../images/caluga__home-2.jpg');
+    background-image: url('../../images/plataforma_junio/junio__caluga4-bg.jpg');
 }
 
 img.programa__iconSvg{
@@ -260,7 +260,30 @@ img.programa__iconSvg{
 }
 
 ul.MP-listado{
-    padding-left: 8rem;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 1rem;
+}
+
+@media (min-width: 769px) { 
+    ul.MP-listado{
+        list-style: none;
+        margin-left: 0;
+        padding-left: 3rem;
+    }
+}
+
+ul.MP-listado > li {
+    padding-left: 1em;
+    text-indent: -1em;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+  
+ul.MP-listado > li:before {
+    content: url('../../images/bullet.png');
+    padding-right: 5px;
+    color: red;
 }
 
 .contacto__banner-bg{
@@ -737,4 +760,83 @@ iframe.triviasPreguntas__video{
         font-size: 1.6rem;
         line-height: 1.8rem;
     } 
- }
+}
+
+.junio__programaCaluga-1, .junio__programaCaluga-2{
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    min-height: 390px;
+    padding: 45px 40px;
+    color: #fff;
+}
+
+.junio__programaCaluga-1{
+    background-image: url('../../images/plataforma_junio/junio__caluga1-bg.jpg');
+}
+
+.junio__programaCaluga-2{
+    background-image: url('../../images/plataforma_junio/junio__caluga2-bg.jpg');
+}
+
+a.programa__btn{
+    font-size: .7em;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 40px;
+    background: rgb(0,96,204);
+    background: linear-gradient(90deg, rgba(0,96,204,1) 0%, rgba(9,9,121,1) 50%, rgba(255,25,61,1) 100%);
+}
+
+a.programa__btn:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+img.programa__iconSvg-2{
+    max-height: 70px;
+    margin-bottom: 30px;
+}
+
+h5.programa__iconSvgTxt-2{
+    font-size: 1.2em;
+}
+
+@media (min-width: 768px) { 
+    img.programa__iconSvg-2{
+        max-height: 75px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) { 
+    h5.programa__iconSvgTxt-2{
+        font-size: .66em;
+    }
+}
+
+@media (min-width: 992px) { 
+    img.programa__iconSvg-2{
+        max-height: 70px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 992px) { 
+    h5.programa__iconSvgTxt-2{
+        font-size: 1.2em;
+    }
+}
+
+p.programa__disclaimer{    
+    color: #011689;
+    font-size: .8rem;
+    font-style: italic;
+    padding-top: 10px;
+}
