@@ -104,6 +104,33 @@ a.boton-blanco{
     text-transform: uppercase;   
 }
 
+
+button.boton-degrade{
+    background: rgb(0,96,204);
+    background: linear-gradient(90deg, rgba(0,96,204,1) 0%, rgba(9,9,121,1) 50%, rgba(255,25,61,1) 100%);
+    border: 2px solid #fff;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 25px; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+a.boton-degrade{
+    background: rgb(0,96,204);
+    background: linear-gradient(90deg, rgba(0,96,204,1) 0%, rgba(9,9,121,1) 50%, rgba(255,25,61,1) 100%);
+    border: 2px solid #fff;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 25px; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
 a.boton-whatsapp{
     background-color: #39B54A;
     background-image: url('../../images/logo__whastapp.svg');
@@ -839,4 +866,48 @@ p.programa__disclaimer{
     font-size: .8rem;
     font-style: italic;
     padding-top: 10px;
+}
+
+.comoGano__banner-2{
+    background-image: url('../../images/plataforma_junio/comoGano__banner-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    min-height: 390px;
+    padding: 45px 20px;
+    color: #fff;
+}
+
+img.comoGano__banner-elemento2{
+    max-width: 120px;
+}
+
+p.comoGano__banner-txt1{
+    font-size: 2rem;
+    line-height: 2.5rem;
+    color: #011689;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+@media (max-width: 992px) { 
+    p.comoGano__banner-txt1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+}
+
+p.comoGano__banner-txt2{
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+@media (max-width: 992px) { 
+    p.comoGano__banner-txt2{
+        font-size: 1rem;
+        padding-top: 20px;
+    }
 }
