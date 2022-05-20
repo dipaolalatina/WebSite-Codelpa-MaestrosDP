@@ -691,3 +691,50 @@ iframe.triviasPreguntas__video{
         height: 800px;
     }
 }
+
+/* Actualización Junio 2022 */
+
+.junio__banner-bg{
+    background-image: url('../../images/plataforma_junio/junio__banner-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.junio-programa__txt-banner{
+    font-size: 1rem;
+    line-height: 1.2rem;
+    padding: 20px 0;
+    color: #011689;
+    text-align: center;
+    background-color: #fff;
+}
+
+@media (min-width: 711px) { 
+    .junio-programa__txt-banner{
+        background-color: transparent;
+        font-size: 7rem;
+        line-height: .9rem;
+    } 
+}
+
+@media (min-width: 768px) { 
+    .junio-programa__txt-banner{
+        font-size: 1rem;
+        line-height: 1.2rem;
+    } 
+}
+
+@media (min-width: 992px) { 
+    .junio-programa__txt-banner{
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+    } 
+}
+
+@media (min-width: 1024px) { 
+    .junio-programa__txt-banner{
+        font-size: 1.6rem;
+        line-height: 1.8rem;
+    } 
+ }
