@@ -911,3 +911,28 @@ p.comoGano__banner-txt2{
         padding-top: 20px;
     }
 }
+
+.contacto__banner-bg{
+    background-image: url('../../images/plataforma_junio/contacto__banner-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img.contacto__banner-elemento1{
+    width: 90%;
+}
+
+@media (min-width: 711px) { 
+    img.contacto__banner-elemento1{
+        width: 75%;
+    }
+}
+
+.capacitate__bannerBottom{
+    background-image: url('../../images/plataforma_junio/capacitate__bannerBottom-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
