@@ -550,6 +550,24 @@ h2.tips__title{
     }
 }
 
+h2.tips__title-2{
+    color: #3D3D3D;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (min-width: 992px) { 
+    h2.tips__title-2{
+        padding: 0px 100px;
+    }
+}
+
+@media (min-width: 1440px) { 
+    h2.tips__title-2{
+        padding: 0px 200px;
+    }
+}
+
 p.tips__parrafo{
     font-size: 18px;
 }
