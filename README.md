@@ -2,8 +2,6 @@
 
 ## Páginas
 
-[GitHub](http://github.com)
-
 [Capacítate](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/capacitate/)
 
 [Como Gano](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/como-gano/)
