@@ -8,7 +8,9 @@
 
 [Contáctatnos](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/contactanos/)
 
-[Destacados](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/)
+Destacados
+### [Junio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/junio.html)
+### [Julio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/julio.html)
 
 [Maestros de Primera](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/maestros-de-primera/)
 
