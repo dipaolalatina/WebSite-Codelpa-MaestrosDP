@@ -21,3 +21,5 @@ Destacados
 [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/trivias/)
 
 [Preguntas de Trivia](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/trivias/preguntas.html)
+
+#### Update 23.06.2022
