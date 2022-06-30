@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,700;1,900&display=swap');
 
 html, body{
     color: #606161;
@@ -441,9 +441,9 @@ img.capacitate__bannerImg{
 }
 
 h1.capacitate__bannerHeader{
-    color: #011689;
+    color: #fff;
     font-size: 1.1rem;
-    margin: 30px 0px;
+    margin: 20px 0px;
     font-weight: 900;  
 }
 
@@ -455,14 +455,14 @@ h1.capacitate__bannerHeader{
 
 @media (min-width: 992px) { 
     h1.capacitate__bannerHeader{
-        font-size: 1.4rem;   
+        font-size: 2.3rem;   
     }
 }
 
 p.capacitate__bannerParrafo{
-    color: #011689;
+    color: #fff;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 1.3rem;  
 }
 
@@ -930,28 +930,29 @@ img.comoGano__banner-elemento2{
 }
 
 p.comoGano__banner-txt1{
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: #011689;
-    font-weight: bold;
-    padding-top: 10px;
+    font-size: 1rem;
+    line-height: 1.2rem;
+    color: #fff;
+    font-weight: 300;
 }
 
-@media (max-width: 992px) { 
+@media (min-width: 992px) { 
     p.comoGano__banner-txt1{
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 1.3rem;
+        line-height: 1.3rem;
     }
 }
 
 p.comoGano__banner-txt2{
-    font-size: 1.2rem;
+    font-size: .9rem;
     padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
 }
 
 @media (max-width: 992px) { 
     p.comoGano__banner-txt2{
-        font-size: 1rem;
+        font-size: .7rem;
         padding-top: 20px;
     }
 }
@@ -1148,7 +1149,7 @@ iframe.destacados__video{
     }
 }
 
-.destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4{
+.destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
     background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1168,20 +1169,20 @@ iframe.destacados__video{
 }
 
 @media (min-width: 768px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4{
+    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
         min-height: 295px;
     } 
 }
 
 @media (min-width: 992px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4{
+    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
         background-position: 50% 50%;
         min-height: 245px;
     }
 }
 
 @media (min-width: 1200px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4{
+    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
         min-height: 200px;
     }
  }
@@ -1201,6 +1202,10 @@ iframe.destacados__video{
 
 .destacados__caluga4{
     background-image: url('../../images/destacados/2022-06/destacados__caluga4-bg.jpg');
+}
+
+.destacados__calugaRode{
+    background-image: url('../../images/destacados/2022-06/destacados__rode2Banner-bg.jpg');
 }
 
 p.destacados__caluga1-txt{
@@ -1285,3 +1290,165 @@ div.destacados__cumpleNombre{
     }
 }
 
+/* Actualización Rodelindo*/
+
+/* Como Gano */
+
+.comoGano__rodeBanner-bg{
+    background-image: url('../../images/como_gano/2022-06/comoGano__rodeBanner-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    min-height: 390px;
+    color: #fff;
+}
+
+img.comoGano__rodeBanner-elemento1{
+    width: 100%;
+    max-width: 480px;
+}
+
+img.comoGano__rodeBanner-elemento2{
+    width: 100%;
+    max-width: 471px;
+}
+
+img.comoGano__rodeBanner-elemento3{
+    width: 100%;
+    max-width: 661px;
+}
+
+img.comoGano__rodeBanner-elemento4{
+    width: 100%;
+    max-width: 667px;
+}
+
+/* Que es maestros de primera */
+
+div.maestros__rodeBanner{
+    background-image: url('../../images/maestros-de-primera/2022-06/maestros__rodeBanner-bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff; 
+}
+
+img.maestros__rodeBanner-elemento1{
+    width: 90%;
+    max-width: 671px; 
+}
+
+img.maestros__rodeBanner-elemento2{
+    width: 100%;
+    max-width: 1029px;
+}
+
+p.maestros__rodeBanner-txt{
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1rem;
+    font-size: 14px;
+}
+
+@media (min-width: 992px) { 
+    p.maestros__rodeBanner-txt{
+        line-height: 2rem;
+        font-size: 37px;
+    }
+}
+
+/* Capacitate */
+
+div.capacitate__rodeBanner{
+    background-image: url('../../images/capacitate/2022-06/capacitate__rodeBanner-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+/* Destacados */
+
+div.destacados__rode1Banner{
+    color: #fff;
+    background-image: url('../../images/destacados/2022-06/destacados__rode1Banner-bg.jpg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+@media (min-width: 768px) { 
+    .destacados__rode1Banner{
+        background-position: 100% 50%;
+        background-size: cover; 
+    }
+}
+
+@media (min-width: 992px) { 
+    .destacados__rode1Banner{
+        background-position: 100% 50%;
+        background-size: 75%;   
+    }
+}
+
+img.destacados__rode1Banner-elemento1{
+    width: 90%;
+}
+
+img.destacados__rode1Banner-elemento2{
+    width: 90%;
+}
+
+p.destacados__rode1Banner-txt{
+    font-size: 18px;
+}
+
+/* Tips */
+
+div.tips__rodeBanner{
+    color: #fff;
+    background-image: url('../../images/tips/2022-06/tips__rodeBanner-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+div.tips__rodeBanner-medio{
+    color: #fff;
+    background-image: url(../../images/tips/2022-06/tips__rodeBanner-elemento2.png);
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    min-height: 250px;
+    padding-top: 50%;
+}
+
+@media (min-width: 768px) { 
+    div.tips__rodeBanner-medio{
+        padding-top: 25%;
+    }
+}
+
+@media (min-width: 992px) { 
+    div.tips__rodeBanner-medio{
+        min-height: 320px;
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1024px) { 
+    div.tips__rodeBanner-medio{
+        min-height: 320px;
+        padding-top: 20%;
+    }
+}
+
+@media (min-width: 1400px) { 
+    div.tips__rodeBanner-medio{
+        min-height: 460px;
+        padding-top: 22%;
+    }
+}
