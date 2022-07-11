@@ -24,4 +24,4 @@ Destacados
 
 [Testimoniales](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/testimoniales)
 
-#### Update 07.07.2022
+#### Update 11.07.2022
