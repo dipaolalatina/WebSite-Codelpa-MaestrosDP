@@ -474,7 +474,8 @@ p.capacitate__bannerParrafo{
 
 .bg-capacitate__mayo, 
 .bg-capacitate__julio, 
-.bg-capacitate__agosto{
+.bg-capacitate__agosto,
+.bg-capacitate__septiembre {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -484,7 +485,8 @@ p.capacitate__bannerParrafo{
 @media (min-width: 711px) { 
     .bg-capacitate__mayo, 
     .bg-capacitate__julio, 
-    .bg-capacitate__agosto{
+    .bg-capacitate__agosto,
+    .bg-capacitate__septiembre {
         background-position: 100% 50%;
         background-size: 50%;
     }
@@ -500,6 +502,10 @@ p.capacitate__bannerParrafo{
 
 .bg-capacitate__agosto{
     background-image: url('../../images/capacitate/2022-06/capacitate__agosto-bg.jpg');
+}
+
+.bg-capacitate__septiembre{
+    background-image: url('../../images/capacitate/2022-07/capacitate__septiembre-2.jpg');
 }
 
 h1.capacitate__mayoTitle{
@@ -840,7 +846,7 @@ iframe.triviasPreguntas__video{
     border-radius: 30px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     margin-bottom: 30px;
-    min-height: 390px;
+    min-height: 360px;
     padding: 45px 40px;
     color: #fff;
 }
@@ -876,7 +882,7 @@ img.programa__iconSvg-2{
 }
 
 h5.programa__iconSvgTxt-2{
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 @media (min-width: 768px) { 
@@ -1451,4 +1457,139 @@ div.tips__rodeBanner-medio{
         min-height: 460px;
         padding-top: 22%;
     }
+}
+
+/* Testimoniales */
+
+div.testimoniales__bannerHero{
+    color: #fff;
+    background-image: url(../../images/testimoniales/testimoniales__bannerHero-bg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+h1.testimoniales__bannerHero-header{    
+    font-weight: 900;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+img.testimoniales__bannerHero-elemento1{
+    width: 100%;
+    max-width: 1311px;
+    margin: 20px auto 0 auto;
+}
+
+@media (min-width: 768px) {
+    div.testimoniales__bannerHero{
+        padding-top: 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    h1.testimoniales__bannerHero-header{   
+        font-size: 2em;
+    }
+
+    img.testimoniales__bannerHero-elemento1{
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) { 
+    div.testimoniales__bannerHero{
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    h1.testimoniales__bannerHero-header{   
+        font-size: 2.1em;
+    }
+    
+    img.testimoniales__bannerHero-elemento1{
+        width: 75%;
+    }
+}
+
+@media (min-width: 1024px) { 
+    div.testimoniales__bannerHero{
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    h1.testimoniales__bannerHero-header{   
+        font-size: 2.1em;
+    }
+
+    img.testimoniales__bannerHero-elemento1{
+        width: 75%;
+    }
+}
+
+@media (min-width: 1400px) { 
+    div.testimoniales__bannerHero{
+        padding-top: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    h1.testimoniales__bannerHero-header{   
+        font-size: 2.7em;
+    }
+
+    img.testimoniales__bannerHero-elemento1{
+        width: 75%;
+    }
+}
+
+iframe.testimoniales__video{
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+    iframe.testimoniales__video{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+@media (min-width: 992px) { 
+    iframe.testimoniales__video{
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1400px) { 
+    iframe.testimoniales__video{
+        width: 100%;
+        height: 430px;
+    }
+}
+
+div.testimoniales__banner2{
+    color: #fff;
+    background-image: url(../../images/testimoniales/testimoniales__banner2-bg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+div.testimoniales__banner3{
+    color: #fff;
+    background-image: url(../../images/testimoniales/testimoniales__banner3-bg.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
