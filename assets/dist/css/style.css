@@ -593,6 +593,12 @@ p.tips__parrafo{
     font-size: 18px;
 }
 
+p.tips__label-foto{
+    font-size: 13px;
+    text-align: center;
+    padding-top: 7px;
+}
+
 .tips__separador{
     margin: 40px 0;
     background-color: #cbcbcb;

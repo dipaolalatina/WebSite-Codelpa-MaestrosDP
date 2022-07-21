@@ -23,4 +23,4 @@
 
 - [Preguntas frecuentes](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/preguntas-frecuentes/)
 
-#### Update 20.07.2022
+#### Update 21.07.2022
