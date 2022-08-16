@@ -9,6 +9,8 @@
 - Destacados
     - [Junio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/junio.html)
     - [Julio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/julio.html)
+    - [Agosto](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/agosto.html)
+    - [Septiembre](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/septiembre.html)
 
 - Tips
     - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2022/abril.html)
@@ -24,4 +26,4 @@
 
 - [Preguntas frecuentes](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/preguntas-frecuentes/)
 
-#### Update 27.07.2022
+#### Update 16.08.2022

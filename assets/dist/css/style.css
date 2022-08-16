@@ -475,7 +475,8 @@ p.capacitate__bannerParrafo{
 .bg-capacitate__mayo, 
 .bg-capacitate__julio, 
 .bg-capacitate__agosto,
-.bg-capacitate__septiembre {
+.bg-capacitate__septiembre,
+.bg-capacitate__octubre {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -486,7 +487,8 @@ p.capacitate__bannerParrafo{
     .bg-capacitate__mayo, 
     .bg-capacitate__julio, 
     .bg-capacitate__agosto,
-    .bg-capacitate__septiembre {
+    .bg-capacitate__septiembre,
+    .bg-capacitate__octubre {
         background-position: 100% 50%;
         background-size: 50%;
     }
@@ -506,6 +508,10 @@ p.capacitate__bannerParrafo{
 
 .bg-capacitate__septiembre{
     background-image: url('../../images/capacitate/2022-07/capacitate__septiembre-2.jpg');
+}
+
+.bg-capacitate__octubre{
+    background-image: url('../../images/capacitate/2022-08/octubre_02.jpg');
 }
 
 h1.capacitate__mayoTitle{
