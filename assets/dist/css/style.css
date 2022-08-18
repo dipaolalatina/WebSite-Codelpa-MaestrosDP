@@ -81,6 +81,29 @@ button.boton-rojo{
     text-transform: uppercase;
 }
 
+a.boton-rojo-big{
+    background-color: #E1251B;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px 45px;    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+button.boton-rojo-big{
+    background-color: #E1251B;
+    border: 0;
+    border-radius: 60px;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px 45px;    
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 button.boton-blanco{
     background-color: #fff;
     border: 0;
@@ -100,6 +123,31 @@ a.boton-blanco{
     color: #E1251B;
     font-size: .8rem;
     padding: 15px 25px; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+button.boton-blanco-big{
+    background-color: #fff;
+    border: 0;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #E1251B;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px 45px; 
+    text-decoration: none;
+    text-transform: uppercase;   
+}
+
+a.boton-blanco-big{
+    background-color: #fff;
+    border-radius: 60px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    color: #E1251B;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 15px 45px; 
     text-decoration: none;
     text-transform: uppercase;   
 }
@@ -947,34 +995,6 @@ img.comoGano__banner-elemento2{
     max-width: 120px;
 }
 
-p.comoGano__banner-txt1{
-    font-size: 1rem;
-    line-height: 1.2rem;
-    color: #fff;
-    font-weight: 300;
-}
-
-@media (min-width: 992px) { 
-    p.comoGano__banner-txt1{
-        font-size: 1.3rem;
-        line-height: 1.3rem;
-    }
-}
-
-p.comoGano__banner-txt2{
-    font-size: .9rem;
-    padding-top: 20px;
-    text-transform: uppercase;
-    font-weight: 300;
-}
-
-@media (max-width: 992px) { 
-    p.comoGano__banner-txt2{
-        font-size: .7rem;
-        padding-top: 20px;
-    }
-}
-
 .contacto__banner-bg{
     background-image: url('../../images/plataforma_junio/contacto__banner-bg.jpg');
     background-position: 50% 50%;
@@ -1167,7 +1187,13 @@ iframe.destacados__video{
     }
 }
 
-.destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
+.destacados__caluga1, 
+.destacados__caluga2, 
+.destacados__caluga3, 
+.destacados__caluga4, 
+.destacados__calugaRode,
+.destacados__bannerAgosto-1,
+.destacados__bannerAgosto-2{
     background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1187,20 +1213,38 @@ iframe.destacados__video{
 }
 
 @media (min-width: 768px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
+    .destacados__caluga1, 
+    .destacados__caluga2, 
+    .destacados__caluga3, 
+    .destacados__caluga4, 
+    .destacados__calugaRode, 
+    .destacados__bannerAgosto-1, 
+    .destacados__bannerAgosto-2{
         min-height: 295px;
     } 
 }
 
 @media (min-width: 992px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
+    .destacados__caluga1, 
+    .destacados__caluga2, 
+    .destacados__caluga3, 
+    .destacados__caluga4, 
+    .destacados__calugaRode, 
+    .destacados__bannerAgosto-1, 
+    .destacados__bannerAgosto-2{
         background-position: 50% 50%;
         min-height: 245px;
     }
 }
 
 @media (min-width: 1200px) { 
-    .destacados__caluga1, .destacados__caluga2, .destacados__caluga3, .destacados__caluga4, .destacados__calugaRode{
+    .destacados__caluga1, 
+    .destacados__caluga2, 
+    .destacados__caluga3, 
+    .destacados__caluga4, 
+    .destacados__calugaRode, 
+    .destacados__bannerAgosto-1, 
+    .destacados__bannerAgosto-2{
         min-height: 200px;
     }
  }
@@ -1224,6 +1268,14 @@ iframe.destacados__video{
 
 .destacados__calugaRode{
     background-image: url('../../images/destacados/2022-06/destacados__rode2Banner-bg.jpg');
+}
+
+.destacados__bannerAgosto-1{
+    background-image: url('../../images/destacados/2022-08/destacado__bannerAgosto-bg-1.jpg');
+}
+
+.destacados__bannerAgosto-2{
+    background-image: url('../../images/destacados/2022-08/destacado__bannerAgosto-bg-2.jpg');
 }
 
 p.destacados__caluga1-txt{
@@ -1311,16 +1363,6 @@ div.destacados__cumpleNombre{
 /* Actualización Rodelindo*/
 
 /* Como Gano */
-
-.comoGano__rodeBanner-bg{
-    background-image: url('../../images/como_gano/2022-06/comoGano__rodeBanner-bg.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 30px;
-    min-height: 390px;
-    color: #fff;
-}
 
 img.comoGano__rodeBanner-elemento1{
     width: 100%;
@@ -1604,4 +1646,109 @@ div.testimoniales__banner3{
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* Actualización 18.08.2022 */
+
+/* Como gano */
+
+.comoGano__bannerHero-bg{
+    background-image: url('../../images/como_gano/2022-08/comoGano__bg-agosto.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+    min-height: 390px;
+    color: #fff;
+}
+
+p.comoGano__banner-txt2{
+    font-size: .8rem;
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+@media (max-width: 992px) { 
+    p.comoGano__banner-txt2{
+        font-size: .5rem;
+        padding-top: 20px;
+    }
+}
+
+p.comoGano__banner-txt1{
+    font-size: 1rem;
+    line-height: 1.1rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+@media (min-width: 992px) { 
+    p.comoGano__banner-txt1{
+        font-size: 1rem;
+        line-height: 1.1rem;
+    }
+}
+
+/* Capacítate */
+
+.capacitate__bannerOportunidades{
+    background-image: url('../../images/capacitate/2022-08/capacitate__bannerAgosto-bg.jpg');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+}
+
+/* Maestros de primera */
+
+.maestros__bannerAgosto-1{
+    background-image: url('../../images/maestros-de-primera/2022-08/maestros__bannerAgosto-bg-1.jpg');
+}
+
+.maestros__bannerAgosto-2{
+    background-image: url('../../images/maestros-de-primera/2022-08/maestros__bannerAgosto-bg-2.jpg');
+}
+
+.maestros__bannerAgosto-1, .maestros__bannerAgosto-2{
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+img.maestros__bannerAgosto-elemento-1{
+    max-width: 115px;
+}
+
+img.maestros__bannerAgosto-elemento-2{
+    max-width: 89px;
+}
+
+p.maestros__bannerAgosto-txt{
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1rem;
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) { 
+    p.maestros__bannerAgosto-txt{
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1440px) { 
+    p.maestros__bannerAgosto-txt{
+        line-height: 1.8rem;
+        font-size: 2.1rem;
+    }
+}
+
+/* Destacados */
+
+.text-italic{
+    font-style: italic;
 }

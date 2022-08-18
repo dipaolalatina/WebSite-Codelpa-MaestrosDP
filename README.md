@@ -25,5 +25,3 @@
 - [Contáctatnos](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/contactanos/)
 
 - [Preguntas frecuentes](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/preguntas-frecuentes/)
-
-#### Update 16.08.2022
