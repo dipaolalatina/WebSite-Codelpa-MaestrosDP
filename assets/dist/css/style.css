@@ -931,6 +931,20 @@ a.programa__btn{
     background: linear-gradient(90deg, rgba(0,96,204,1) 0%, rgba(9,9,121,1) 50%, rgba(255,25,61,1) 100%);
 }
 
+@media (min-width: 1024px) { 
+    a.programa__btn{
+        font-size: .6em;
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 1400px) { 
+    a.programa__btn{
+        font-size: .7em;
+        padding: 10px 40px;
+    }
+}
+
 a.programa__btn:hover{
     text-decoration: none;
     color: #fff;
