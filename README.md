@@ -26,3 +26,5 @@
 - [Contáctatnos](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/contactanos/)
 
 - [Preguntas frecuentes](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/preguntas-frecuentes/)
+
+- [Cargar Factura](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/factura/)
