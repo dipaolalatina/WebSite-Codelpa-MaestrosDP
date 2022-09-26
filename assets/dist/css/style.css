@@ -1879,3 +1879,80 @@ p.factura__legal{
     margin-bottom: 40px;
     font-size: .8rem;
 }
+
+/* Chances Acumuladas */
+
+#chances__input-buscar {
+    background-image: url('../../images/chances-acumuladas/chances__btnBuscar.jpg');
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 60px;
+    background-color: rgb(206,206,206);
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+    padding: 20px 20px 20px 40px;
+    border: 0;
+    outline: 0;
+}
+
+#chances__input-buscar::placeholder {
+    color: #fff;
+}
+
+#chances__tabla {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+    box-shadow: #d8d8d8 0px 0px 40px;
+}
+
+#chances__tabla, #chances__tabla > tbody{
+    border-radius: 30px 30px 10px 10px;
+}
+
+#chances__tabla > tbody > tr.header{
+    border-radius: 30px 30px 0px 0px;
+}
+
+#chances__tabla > tbody > tr.header > th.chances__tablaHeaderNombre{
+    border-radius: 30px 0px 0px 0px;
+}
+
+#chances__tabla > tbody > tr.header > th.chances__tablaHeaderChances{
+    border-radius: 0px 30px 0px 0px;
+}
+
+#chances__tabla > tbody > tr.header > th.chances__tablaHeaderChances > span{
+    font-weight: 500;
+    color: #66adcb;
+}
+
+#chances__tabla > tbody > tr.header > th.chances__tablaHeaderNombre,
+#chances__tabla > tbody > tr.header > th.chances__tablaHeaderChances{
+    text-align: center;
+    text-transform: uppercase;
+    background: #007ab5;
+    color: #fff;
+}
+
+#chances__tabla th,
+#chances__tabla td {
+    text-align: left;
+    padding: 20px 15px;
+}
+
+#chances__tabla tr {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#chances__tabla td {
+    text-align: center;
+    font-weight: 700;
+    color: #adaeb0;
+}
+
+.chances__titulo{
+    font-weight: 500;
+}

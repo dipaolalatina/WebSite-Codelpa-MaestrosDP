@@ -1,0 +1,602 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="di Paola Latina">
+    <meta name="generator" content="Sipa">
+    <title>Sipa - Maestros de Primera</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Custom styles for this template -->
+    <link href="../assets/dist/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <div class="container-fluid g-0">
+            <div class="row g-0">
+                <div class="col-12 g-0">
+                    <img src="../assets/images/chances-acumuladas/chances__bannerHero.jpg" class="w-100" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="chances__titulo text-center my-5">Conoce tus oportunidades acumuladas para participar por
+                        el gran premio.</h2>
+
+                    <input type="text" class="mb-5" id="chances__input-buscar" onkeyup="myFunction()"
+                        placeholder="Escribe tu nombre aquí..." title="Escriba su nombre">
+
+                    <table id="chances__tabla" class="mb-5">
+                        <tr class="header">
+                            <th class="chances__tablaHeaderNombre">Nombre</th>
+                            <th class="chances__tablaHeaderChances">OPORTUNIDADES ACUMULADAS<br>
+                                <span>(AL 26-09-2022)</span></th>
+                        </tr>
+                        <tr>
+                            <td>Abner Morales</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Aldo Turner Valenzuela</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Alex Riffo García</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Alexis GonzaLez</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Alexis Pichardo</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Alvaro Smoje</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Ana Castillo</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Andrea Jorquera</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Andrés Pereira </td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Ariel Diaz</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Armin Hidalgo Flandez</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Branco Arqueros</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Camilo Escalona</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Gaymor</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos Lagos</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Cesar Fernandez</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Christian Araya</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Claudio Santibañez</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Claudio Asenjo</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Claudio Febra Sepulveda</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Claudio Larenas Muñoz</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Clodomiro Vargas Pernia</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Constanza Vargas</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Cristian Aguilar</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Cristian Andres Tapia</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Cristian Contreras</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <td>Cristobal Araya Barraza</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Cristofer Bastian Alamos Gutierrez</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Cyntia Zuñiga</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel Carrasco</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Daniel Lisboa Rubina</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Delfin Almonacid</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Diego De La Fuente</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Ortega</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Perez</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Rojas</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Diego Woisin</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Digna </td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Eddy Prophete</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Eduardo Mella</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Elsy Guzman</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Engeelberth Luna</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Esteban Jara</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Fabian Fernandez</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Felipe Carrasco</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Felipe Huaiquimil </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Felipe Pulgar</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Fernando Zambra</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco </td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Francisco Castro</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td>Frank Correa</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Gonzalo Meza</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Guillermo Vasquez </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Chiguay</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Hector Saldias</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Jaime Marin</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Javiera Zapata</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jazmin Molina </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jesus Avila</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jesus Cabrejos</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Jhon Perez</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Joaquin Andres Silva Achurra</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Jonathan Muñoz Morales</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jorge Becerra </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jorge Luis Gallegos Leiva</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jorge Navarrete</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Acuña</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Luis Alvarez Alvarez</td>
+                            <td>110</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Luis Quintero</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Mansilla</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Jose Vega</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Josue Lopez Casanova</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Juan Pablo Cruz</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Karina Lizama</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Kathy Canales</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Kevin Müller</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Lenin García Rodríguez</td>
+                            <td>110</td>
+                        </tr>
+                        <tr>
+                            <td>Lina Aguilera</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Alfredo Martinez Flores</td>
+                            <td>220</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Andrade</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Aravena</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Arteaga</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Jesus Monsalve</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Lopez</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Poblete</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Romero</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Serrano</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Luis Vermeersch</td>
+                            <td>50</td>
+                        </tr>
+                        <tr>
+                            <td>Macarena Zenteno</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel Carvajal</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel Donoso</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Marcela Cisterna</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Marcelo Flores</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Marco Cona Guzman</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Marco Lineros</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Maria Vivas Becerra</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Mariano Garcia</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Mario </td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Mario Fontt</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Marjorie </td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Marjorie Nicole Cifuentes Musre </td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Mauricio Rodriguez</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Mauricio Tapia</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Mauricio Zúñíga</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Milton Fernando Varela Carvajal </td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Nicolás Orellana</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>NicoláS Vallejo</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Orlando Ibaceta</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>Pablo Araneda</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Pablo San Martin</td>
+                            <td>70</td>
+                        </tr>
+                        <tr>
+                            <td>Pablo Zapata</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Patricio Donoso</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Patricio Montoya Acencio</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Paulo Norton</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Paulo Ramos</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro Aguilera</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Pelao Muñoz</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Piero Pereira</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael Esteban Padilla Parra</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Rafael Soto Durán</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Raúl Pérez Ocares</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Renato Orellana</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Ricardo Javier Cisterna Alvarez </td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Rodrigo Herrera Castillo</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Rodrigo Retamal</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Rodrigo Stuardo Carvajal</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Rosbil Principe Salvador </td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>Salvador Apablaza</td>
+                            <td>30</td>
+                        </tr>
+                        <tr>
+                            <td>Scarlett Venegas</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Sergio Hermosilla</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Sergio Prat</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Tabata Pezoa </td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Victor Arellano</td>
+                            <td>40</td>
+                        </tr>
+                        <tr>
+                            <td>Vitor Vega Tadres</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td>Williams Cortes</td>
+                            <td>60</td>
+                        </tr>
+                        <tr>
+                            <td>Wilson Olortigue </td>
+                            <td>40</td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/dist/js/filtroChancesAcumuladas.js"></script>
+    <!-- <div class="container-fluid footer__bgPintura mt-5 bg-gris"></div> -->
+</body>
+
+</html>
