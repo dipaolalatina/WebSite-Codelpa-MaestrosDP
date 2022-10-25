@@ -387,6 +387,10 @@ img.icon__contacto{
     }
 }
 
+.contacto__parrafoText{
+    font-size: .9rem;
+}
+
 .preguntas__banner-bg{
     background-image: url('../../images/banner__preguntas-bg.jpg');
     background-position: 50% 50%;
@@ -525,7 +529,8 @@ p.capacitate__bannerParrafo{
 .bg-capacitate__agosto,
 .bg-capacitate__septiembre,
 .bg-capacitate__octubre,
-.bg-capacitate__noviembre {
+.bg-capacitate__noviembre,
+.bg-capacitate__diciembre {
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -538,7 +543,8 @@ p.capacitate__bannerParrafo{
     .bg-capacitate__agosto,
     .bg-capacitate__septiembre,
     .bg-capacitate__octubre,
-    .bg-capacitate__noviembre {
+    .bg-capacitate__noviembre,
+    .bg-capacitate__diciembre {
         background-position: 100% 50%;
         background-size: 50%;
     }
@@ -566,6 +572,10 @@ p.capacitate__bannerParrafo{
 
 .bg-capacitate__noviembre{
     background-image: url('../../images/capacitate/2022-09/noviembre-2.jpg');
+}
+
+.bg-capacitate__diciembre{
+    background-image: url('../../images/capacitate/2022/10/diciembre-2.jpg');
 }
 
 h1.capacitate__mayoTitle{
