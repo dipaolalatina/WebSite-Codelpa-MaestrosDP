@@ -26,9 +26,14 @@
                 <h2 class="factura__header-2">y todas tus oportunidades <br>participarán por el gran premio.</h2>
               </div>
               <form class="col-12 col-sm-8 text-center">
-                <input type="file" class="form-control factura__inputFile" id="inputGroupFile04" aria-describedby="inputGroupFileAddon04" aria-label="Upload">
-                <p class="factura__inputDisclaim">Solo carga archivos png, jpg o jpeg de 50mb máximo.</p>
-                <button class="btn factura__btnForm-1" type="button" id="inputGroupFileAddon04">Cargar</button>
+                <div class="factura__fileContainer">
+                  <label class="factura__fileFake" for="factura__inputTag">
+                    Cargar
+                    <input class="factura__fileInput" id="factura__inputTag" type="file" accept="image/png, image/jpg, image/jpeg"/>
+                  </label>
+                </div>
+                <p class="factura__inputDisclaim">Formato recomendado JPG, PNG. Tamaño máximo: 50 mb</p>
+                <button class="btn factura__btnForm-1" type="button" id="inputGroupFileAddon04">Enviar</button>
               </form>
               <div class="col-12 col-sm-8">
                 <h2 class="factura__header-3">¡Y listo!</h2>
@@ -41,7 +46,17 @@
         </div>
       </div>
       <!-- <div class="container-fluid footer__bgPintura m-0"></div> -->
-      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>  
+      <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+        let input = document.getElementById("factura__inputTag");
+        let imageName = document.getElementById("factura__imageName")
+
+        input.addEventListener("change", ()=>{
+            let inputImage = document.querySelector("input[type=file]").files[0];
+
+            imageName.innerText = inputImage.name;
+        })
+    </script> 
     </main>    
   </body>
 </html>

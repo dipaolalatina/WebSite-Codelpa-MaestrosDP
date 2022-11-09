@@ -1867,11 +1867,12 @@ button.factura__btnForm-1{
     font-weight: 700;
     text-transform: uppercase;
     font-size: 1.6rem;
-    border-radius: 25px;
+    border-radius: 60px;
     border: 0;
-    padding:7px 40px;
+    padding: 15px 40px;
     box-shadow: 0px 3px 8px #7f8080;
-    margin-top: 20px; 
+    margin-top: 20px;
+    width: 50%;
 }
 
 button.factura__btnForm-1:hover{
@@ -1894,6 +1895,35 @@ p.factura__legal{
     margin-top: 20px;
     margin-bottom: 40px;
     font-size: .8rem;
+}
+
+div.factura__fileContainer{
+    text-align:center;
+    width: 50%;
+    margin: 20px auto;
+}
+
+input.factura__fileInput{
+    display: none;
+}
+
+label.factura__fileFake{
+    cursor:pointer;
+    background-color: #60c844ff;
+    width: 100%;
+    border-radius: 60px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    box-shadow: 0px 3px 8px #7f8080;
+    font-size: 1.6rem;
+    font-weight: 700;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+label.factura__fileFake:hover{
+    color: #fff;
+    background-color: rgb(55, 112, 39);
 }
 
 /* Chances Acumuladas */
