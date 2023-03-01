@@ -524,8 +524,18 @@ p.capacitate__bannerParrafo{
     }
 }
 
-.bg-capacitate__diciembre,
-.bg-capacitate__enero{
+.bg-capacitate__enero,
+.bg-capacitate__febrero,
+.bg-capacitate__marzo,
+.bg-capacitate__abril,
+.bg-capacitate__mayo,
+.bg-capacitate__junio,
+.bg-capacitate__julio,
+.bg-capacitate__agosto,
+.bg-capacitate__septiembre,
+.bg-capacitate__octubre,
+.bg-capacitate__noviembre,
+.bg-capacitate__diciembre{
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -533,11 +543,29 @@ p.capacitate__bannerParrafo{
 }
 
 @media (min-width: 711px) { 
-    .bg-capacitate__diciembre,
-    .bg-capacitate__enero {
+    .bg-capacitate__enero,
+    .bg-capacitate__febrero,
+    .bg-capacitate__marzo,
+    .bg-capacitate__abril,
+    .bg-capacitate__mayo,
+    .bg-capacitate__junio,
+    .bg-capacitate__julio,
+    .bg-capacitate__agosto,
+    .bg-capacitate__septiembre,
+    .bg-capacitate__octubre,
+    .bg-capacitate__noviembre,
+    .bg-capacitate__diciembre {
         background-position: 100% 50%;
         background-size: 50%;
     }
+}
+
+.bg-capacitate__enero{
+    background-image: url('../../images/capacitate/2022/12/02.jpg');
+}
+
+.bg-capacitate__marzo{
+    background-image: url('../../images/capacitate/2023/03_marzo/02.jpg');
 }
 
 /* .bg-capacitate__mayo{
@@ -568,9 +596,7 @@ p.capacitate__bannerParrafo{
     background-image: url('../../images/capacitate/2022/10/diciembre-2.jpg');
 }
 
-.bg-capacitate__enero{
-    background-image: url('../../images/capacitate/2022/12/02.jpg');
-}
+
 
 h1.capacitate__mayoTitle{
     text-transform: uppercase;
