@@ -572,32 +572,36 @@ p.capacitate__bannerParrafo{
     background-image: url('../../images/capacitate/2023/03_marzo/abril_02.jpg');
 }
 
-/* .bg-capacitate__mayo{
-    background-image: url('../../images/capacitate/2022-05/02/capacitate__junio-1.jpg');
+.bg-capacitate__mayo{
+    background-image: url('../../images/capacitate/2023/04_abril/02.jpg');
+}
+
+.bg-capacitate__junio{
+    background-image: url('../../images/capacitate/2023/05_mayo/02.jpg');
 }
 
 .bg-capacitate__julio{
-    background-image: url('../../images/capacitate/2022-06/capacitate__julio-bg.jpg');
+    background-image: url('../../images/capacitate/2023/06_junio/02.jpg');
 }
 
 .bg-capacitate__agosto{
-    background-image: url('../../images/capacitate/2022-06/capacitate__agosto-bg.jpg');
+    background-image: url('../../images/capacitate/2023/07_julio/02.jpg');
 }
 
 .bg-capacitate__septiembre{
-    background-image: url('../../images/capacitate/2022-07/capacitate__septiembre-2.jpg');
+    background-image: url('../../images/capacitate/2023/08_agosto/02.jpg');
 }
 
 .bg-capacitate__octubre{
-    background-image: url('../../images/capacitate/2022-08/octubre_02.jpg');
+    background-image: url('../../images/capacitate/2023/09_septiembre/02.jpg');
 }
 
 .bg-capacitate__noviembre{
-    background-image: url('../../images/capacitate/2022-09/noviembre-2.jpg');
-} */
+    background-image: url('../../images/capacitate/2023/10_octubre/02.jpg');
+}
 
 .bg-capacitate__diciembre{
-    background-image: url('../../images/capacitate/2022/10/diciembre-2.jpg');
+    background-image: url('../../images/capacitate/2022/11_noviembre/02.jpg');
 }
 
 
