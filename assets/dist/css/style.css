@@ -577,7 +577,7 @@ p.capacitate__bannerParrafo{
 }
 
 .bg-capacitate__junio{
-    background-image: url('../../images/capacitate/2023/05_mayo/02.jpg');
+    background-image: url('../../images/capacitate/2023/05_mayo/capa_02.jpg');
 }
 
 .bg-capacitate__julio{
@@ -632,7 +632,7 @@ h1.capacitate__mayoTitle{
 }
 
 h1.capacitate__eneroTitle{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     margin-top: 20px;
     font-size: 1.3rem;
     font-weight: 700;
@@ -641,26 +641,26 @@ h1.capacitate__eneroTitle{
 
 @media (min-width: 711px) { 
     h1.capacitate__eneroTitle{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 }
 
 @media (max-width: 992px) { 
     h1.capacitate__eneroTitle{
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 }
 
 @media (min-width: 1200px) { 
     h1.capacitate__eneroTitle{
-        font-size: 2.5rem;
+        font-size: 1.3rem;
     }
 }
 
 img.capacitate__mayoBtn{
-    width: 75%;
+    width: 40%;
     max-width: 250px;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .comoGano__banner{
