@@ -1428,10 +1428,10 @@ div.destacados__cumpleNombre{
 
 @media (min-width: 1200px) { 
     div.destacados__cumpleNumero{
-        font-size: 3rem;
+        font-size: 1rem;
         height: 80px;
         border-radius: 100px;
-        padding-top: 0.25rem;
+        padding-top: 1.6rem;
     }
     
     div.destacados__cumpleNombre{
