@@ -713,6 +713,18 @@ h2.tips__title-2{
     }
 }
 
+h3.tips__title-3{
+    color: #3D3D3D;
+    text-align: center;
+}
+
+.bg__tips{
+    background-image: url('../../images/tips/2023/06_junio/bg.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 h2.tips__title-3{
     color: #636363;
     text-transform: uppercase;
@@ -735,6 +747,12 @@ p.tips__label-foto{
     background-color: #cbcbcb;
     height: 4px;
     border-radius: 60px;
+}
+
+span.tips__numero{
+    color: #3D3D3D;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 /* Trivias */
