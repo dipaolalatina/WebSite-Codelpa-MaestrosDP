@@ -589,22 +589,20 @@ p.capacitate__bannerParrafo{
 }
 
 .bg-capacitate__septiembre{
-    background-image: url('../../images/capacitate/2023/08_agosto/capa_02.jpg');
+    background-image: url('../../images/capacitate/2023/09_septiembre/capa_2.jpg');
 }
 
 .bg-capacitate__octubre{
-    background-image: url('../../images/capacitate/2023/09_septiembre/capa_02.jpg');
+    background-image: url('../../images/capacitate/2023/10_octubre/capa_2.jpg');
 }
 
 .bg-capacitate__noviembre{
-    background-image: url('../../images/capacitate/2023/10_octubre/capa_02.jpg');
+    background-image: url('../../images/capacitate/2023/11_noviembre/capa_2.jpg');
 }
 
 .bg-capacitate__diciembre{
-    background-image: url('../../images/capacitate/2022/11_noviembre/capa_02.jpg');
+    background-image: url('../../images/capacitate/2023/12_diciembre/capa_2.jpg');
 }
-
-
 
 h1.capacitate__mayoTitle{
     text-transform: uppercase;
@@ -655,6 +653,16 @@ h1.capacitate__eneroTitle{
     h1.capacitate__eneroTitle{
         font-size: 1.3rem;
     }
+}
+
+button.capacitate_btnHora{
+    background: #fff;
+    border: 0;
+    font-size: 1.9rem;
+    padding: 5px 15px;
+    border-radius: 26px;
+    font-weight: 700;
+    color: #333333;
 }
 
 img.capacitate__mayoBtn{
