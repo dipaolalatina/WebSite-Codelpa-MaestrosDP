@@ -53,3 +53,8 @@
 - [Cargar Factura](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/factura/)
 
 - [Oportunidades Acumuladas](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/oportunidades-acumuladas/)
+
+- Emails
+    - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/capacitacion.html)
+    - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/newsletter.html)
+    - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/tips.html)
