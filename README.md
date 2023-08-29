@@ -62,3 +62,5 @@
     - 2023
         - Septiembre:
             - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/02_capacitacion/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/01_newsletter/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/03_tips/index.html)
