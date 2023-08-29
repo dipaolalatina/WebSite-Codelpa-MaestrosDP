@@ -55,6 +55,10 @@
 - [Oportunidades Acumuladas](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/oportunidades-acumuladas/)
 
 - Emails
-    - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/capacitacion.html)
-    - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/newsletter.html)
-    - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/tips.html)
+    - Plantillas:
+        - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/capacitacion.html)
+        - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/newsletter.html)
+        - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/tips.html)
+    - 2023
+        - Septiembre:
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/02_capacitacion/index.html)
