@@ -2008,8 +2008,6 @@ label.factura__fileFake:hover{
     background-color: rgb(55, 112, 39);
 }
 
-
-
 /* Chances Acumuladas */
 
 #chances__input-buscar {
@@ -2100,13 +2098,41 @@ label.factura__fileFake:hover{
 }
 
 table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
-    max-width: 50px;
+    max-width: 30px;
+}
+
+@media (min-width: 768px) {
+    table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
+        max-width: 30px;
+    } 
+}
+
+@media (min-width: 1024px) {
+    table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
+        max-width: 50px;
+    } 
 }
 
 table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
     border-radius: 100px;
-    max-width: 80px;
-    max-height: 80px;
+    max-width: 50px;
+    max-height: 50px;
+}
+
+@media (min-width: 768px) {
+    table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
+        border-radius: 100px;
+        max-width: 80px;
+        max-height: 80px;
+    }
+}
+
+@media (min-width: 1024px) {
+    table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
+        border-radius: 100px;
+        max-width: 80px;
+        max-height: 80px;
+    }
 }
 
 /* Apply a border to the bottom of all but the last row */
@@ -2131,23 +2157,97 @@ table#ranking__tabla>tbody>tr>td{
 table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
 table#ranking__tabla>tbody>tr>td.ranking__avatar{
     text-align: center;
+    padding: 15px 10px;
+    font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tabla>tbody>tr>td.ranking__avatar{
+        text-align: center;
+        padding: 15px 20px;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1024px) {
+    table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tabla>tbody>tr>td.ranking__avatar{
+        text-align: center;
+        padding: 15px 20px;
+        font-weight: 700;
+    }
+}
+
+table#ranking__tabla>tbody>tr>td.ranking__nombre{
+    font-size: 13px;
+}
+
+@media (min-width: 768px) {
+    table#ranking__tabla>tbody>tr>td.ranking__nombre{
+        font-size: 16px;
+    }
+}
+
+table#ranking__tabla>tbody>tr>td.ranking__puntos{
+    font-size: 12px;
+    font-weight: 700;
+    text-align: right;
+    padding: 0 20px;
+}
+
+@media (min-width: 768px) {
+    table#ranking__tabla>tbody>tr>td.ranking__puntos{
+        font-size: 14px;
+        padding: 0 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    table#ranking__tabla>tbody>tr>td.ranking__puntos{
+        font-size: 16px;
+        padding: 0 40px;
+    }
 }
 
 #ranking__input-buscar {
     background-image: url('../../images/chances-acumuladas/chances__btnBuscar.jpg');
-    background-position: 100% 50%;
+    background-position: 0% 50%;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 20px;
     background-color: rgb(206,206,206);
     color: #fff;
     width: 100%;
-    font-size: 18px;
-    padding: 20px 20px 20px 40px;
+    font-size: 14px;
+    padding: 10px 20px 10px 65px;
     border: 0;
     outline: 0;
 }
 
+
+@media (min-width: 768px) {
+    #ranking__input-buscar {
+        font-size: 18px;
+        padding: 15px 20px 15px 90px;
+    }
+}
+
+@media (min-width: 1024px) {
+    #ranking__input-buscar {
+        font-size: 18px;
+        padding: 20px 20px 20px 110px;
+    }
+}
+
 #ranking__input-buscar::placeholder {
     color: #fff;
+}
+
+.tablaActive{
+    display: block!important;
+}
+
+.tablaHide{
+    display: none!important;
 }

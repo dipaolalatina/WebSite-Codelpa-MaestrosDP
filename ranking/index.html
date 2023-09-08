@@ -27,54 +27,111 @@
                 </div>
 
                 <div class="col-12 col-md-3">
-                    <select name="" id="">
+                    <select name="" id="ranking__periodo">
                         <option value="1">Mensual</option>
                         <option value="2">Desde el inicio</option>
                     </select>
                 </div>
             </div>
             
-            <div class="row mt-5">
+            <div class="row mt-5 ranking__mensual">
                 <div class="col-12">
                     <input type="text" class="my-4" id="ranking__input-buscar" onkeyup="myFunction()"
                         placeholder="Escribe tu nombre aquí..." title="Escriba su nombre">
 
-                        <table id="ranking__tabla" class="rounded-corners mb-5">
-                           
-                            <tbody>
-                                <tr>
-                                    <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-oro.png" alt=""></td>
-                                    <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
-                                    <td class="col-8"><strong>Luis Alfredo Martinez Flores</strong><br>
-                                    RM - La Reina</td>
-                                    <td class="col-2">480 oportunidades</td>
-                                </tr>
+                    <table id="ranking__tabla" class="rounded-corners mb-5">                        
+                        <tbody>
+                            <tr>
+                                <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-oro.png" alt=""></td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
 
-                                <!-- <tr>
-                                    <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-oro.png" alt=""></td>
-                                    <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
-                                    <td class="col-8"><strong>Luis Alfredo Martinez Flores</strong><br>
-                                    RM - La Reina</td>
-                                    <td class="col-2">480 oportunidades</td>
-                                </tr>
+                            <tr>
+                                <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-plata.png" alt=""></td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
 
-                                <tr>
-                                    <td class="col-1 ranking__trofeo">4</td>
-                                    <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
-                                    <td class="col-8"><strong>Luis Alfredo Martinez Flores</strong><br>
-                                    RM - La Reina</td>
-                                    <td class="col-2">480 oportunidades</td>
-                                </tr> -->
-                            </tbody>
-                            
-                        </table>
+                            <tr>
+                                <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-bronce.png" alt=""></td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-1 ranking__trofeo">4</td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
+                        </tbody>                            
+                    </table>
                 </div>
             </div>
+
+            <div class="row mt-5 ranking__todos tablaHide">
+                <div class="col-12">
+                    <input type="text" class="my-4" id="ranking__input-buscar" onkeyup="myFunction()"
+                        placeholder="Escribe tu nombre aquí..." title="Escriba su nombre">
+
+                    <table id="ranking__tabla" class="rounded-corners mb-5">                        
+                        <tbody>
+                            <tr>
+                                <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-oro.png" alt=""></td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
+
+                            <tr>
+                                <td class="col-1 ranking__trofeo"><img src="../assets/images/ui-elements/copa-oro.png" alt=""></td>
+                                <td class="col-1 ranking__avatar"><img src="https://prd.liza.ashiwea.com/files/imagenes/image/14188235686241946A20230905013830391Z.jpeg" alt=""></td>
+                                <td class="col-8 ranking__nombre"><strong>Luis Alfredo Martinez Flores</strong><br>
+                                RM - La Reina</td>
+                                <td class="col-2 ranking__puntos">480</td>
+                            </tr>
+                        </tbody>                            
+                    </table>
+                </div>
+            </div>
+
+
         </div>
     </main>
 
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../assets/dist/js/filtroRanking.js"></script>
+
+    <script>
+        $(document).ready(function() {
+
+            $("#ranking__periodo").change(function(){
+                if($(this).val() == "1"){
+                    $(".ranking__mensual").addClass("tablaActive");
+                    $(".ranking__mensual").removeClass("tablaHide");
+                    $(".ranking__todos").addClass("tablaHide");
+                    $(".ranking__todos").removeClass("tablaActive");
+                } else if ($(this).val() == "2"){
+                    $(".ranking__todos").addClass("tablaActive");
+                    $(".ranking__todos").removeClass("tablaHide");
+                    $(".ranking__mensual").addClass("tablaHide");
+                    $(".ranking__mensual").removeClass("tablaActive");
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
