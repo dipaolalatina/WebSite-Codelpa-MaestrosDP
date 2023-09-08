@@ -2087,40 +2087,56 @@ label.factura__fileFake:hover{
 
 /* RANKING */
 
-#ranking__tabla{
+#ranking__tablaMensual,
+#ranking__tablaTodos{
     width: 100%;
     background-color: rgb(248, 248, 248);
     border-spacing: 0;
     border-collapse: separate;
     border-radius: 10px;
-    border: 1px solid #05060f;
-    color: #05060f;
+    border: 1px solid #CCCCCC;
+    color: #444444;
 }
 
-table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
+.ranking__periodo-columna{
+    text-align: left;
+}
+
+@media (min-width: 1024px) {
+    .ranking__periodo-columna{
+        text-align: right;
+    }
+}
+
+table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo>img,
+table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo>img{
     max-width: 30px;
 }
 
 @media (min-width: 768px) {
-    table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo>img,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo>img{
         max-width: 30px;
     } 
 }
 
 @media (min-width: 1024px) {
-    table#ranking__tabla>tbody>tr>td.ranking__trofeo>img{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo>img,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo>img{
         max-width: 50px;
     } 
 }
 
-table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
+table#ranking__tablaMensual>tbody>tr>td.ranking__avatar>img,
+table#ranking__tablaTodos>tbody>tr>td.ranking__avatar>img{
     border-radius: 100px;
     max-width: 50px;
     max-height: 50px;
 }
 
 @media (min-width: 768px) {
-    table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__avatar>img,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__avatar>img{
         border-radius: 100px;
         max-width: 80px;
         max-height: 80px;
@@ -2128,7 +2144,8 @@ table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
 }
 
 @media (min-width: 1024px) {
-    table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__avatar>img,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__avatar>img{
         border-radius: 100px;
         max-width: 80px;
         max-height: 80px;
@@ -2136,34 +2153,50 @@ table#ranking__tabla>tbody>tr>td.ranking__avatar>img{
 }
 
 /* Apply a border to the bottom of all but the last row */
-table#ranking__tabla>thead>tr:not(:last-child)>th,
-table#ranking__tabla>thead>tr:not(:last-child)>td,
-table#ranking__tabla>tbody>tr:not(:last-child)>th,
-table#ranking__tabla>tbody>tr:not(:last-child)>td,
-table#ranking__tabla>tfoot>tr:not(:last-child)>th,
-table#ranking__tabla>tfoot>tr:not(:last-child)>td,
-table#ranking__tabla>tr:not(:last-child)>td,
-table#ranking__tabla>tr:not(:last-child)>th,
-table#ranking__tabla>thead:not(:last-child),
-table#ranking__tabla>tbody:not(:last-child),
-table#ranking__tabla>tfoot:not(:last-child) {
-    border-bottom: 1px solid black;
+table#ranking__tablaMensual>thead>tr:not(:last-child)>th,
+table#ranking__tablaTodos>thead>tr:not(:last-child)>th,
+table#ranking__tablaMensual>thead>tr:not(:last-child)>td,
+table#ranking__tablaTodos>thead>tr:not(:last-child)>td,
+table#ranking__tablaMensual>tbody>tr:not(:last-child)>th,
+table#ranking__tablaTodos>tbody>tr:not(:last-child)>th,
+table#ranking__tablaMensual>tbody>tr:not(:last-child)>td,
+table#ranking__tablaTodos>tbody>tr:not(:last-child)>td,
+table#ranking__tablaMensual>tfoot>tr:not(:last-child)>th,
+table#ranking__tablaTodos>tfoot>tr:not(:last-child)>th,
+table#ranking__tablaMensual>tfoot>tr:not(:last-child)>td,
+table#ranking__tablaTodos>tfoot>tr:not(:last-child)>td,
+table#ranking__tablaMensual>tr:not(:last-child)>td,
+table#ranking__tablaTodos>tr:not(:last-child)>td,
+table#ranking__tablaMensual>tr:not(:last-child)>th,
+table#ranking__tablaTodos>tr:not(:last-child)>th,
+table#ranking__tablaMensual>thead:not(:last-child),
+table#ranking__tablaTodos>thead:not(:last-child),
+table#ranking__tablaMensual>tbody:not(:last-child),
+table#ranking__tablaTodos>tbody:not(:last-child),
+table#ranking__tablaMensual>tfoot:not(:last-child),
+table#ranking__tablaTodos>tfoot:not(:last-child) {
+    border-bottom: 1px solid #CCCCCC;
 }
 
-table#ranking__tabla>tbody>tr>td{
+table#ranking__tablaMensual>tbody>tr>td,
+table#ranking__tablaTodos>tbody>tr>td{
     padding: 15px 0px;
 }
 
-table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
-table#ranking__tabla>tbody>tr>td.ranking__avatar{
+table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo, 
+table#ranking__tablaMensual>tbody>tr>td.ranking__avatar,
+table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo, 
+table#ranking__tablaTodos>tbody>tr>td.ranking__avatar{
     text-align: center;
     padding: 15px 10px;
     font-weight: 700;
 }
 
 @media (min-width: 768px) {
-    table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
-    table#ranking__tabla>tbody>tr>td.ranking__avatar{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tablaMensual>tbody>tr>td.ranking__avatar,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tablaTodos>tbody>tr>td.ranking__avatar{
         text-align: center;
         padding: 15px 20px;
         font-weight: 700;
@@ -2171,25 +2204,30 @@ table#ranking__tabla>tbody>tr>td.ranking__avatar{
 }
 
 @media (min-width: 1024px) {
-    table#ranking__tabla>tbody>tr>td.ranking__trofeo, 
-    table#ranking__tabla>tbody>tr>td.ranking__avatar{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tablaMensual>tbody>tr>td.ranking__avatar,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__trofeo, 
+    table#ranking__tablaTodos>tbody>tr>td.ranking__avatar{
         text-align: center;
         padding: 15px 20px;
         font-weight: 700;
     }
 }
 
-table#ranking__tabla>tbody>tr>td.ranking__nombre{
+table#ranking__tablaMensual>tbody>tr>td.ranking__nombre,
+table#ranking__tablaTodos>tbody>tr>td.ranking__nombre{
     font-size: 13px;
 }
 
 @media (min-width: 768px) {
-    table#ranking__tabla>tbody>tr>td.ranking__nombre{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__nombre,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__nombre{
         font-size: 16px;
     }
 }
 
-table#ranking__tabla>tbody>tr>td.ranking__puntos{
+table#ranking__tablaMensual>tbody>tr>td.ranking__puntos,
+table#ranking__tablaTodos>tbody>tr>td.ranking__puntos{
     font-size: 12px;
     font-weight: 700;
     text-align: right;
@@ -2197,20 +2235,23 @@ table#ranking__tabla>tbody>tr>td.ranking__puntos{
 }
 
 @media (min-width: 768px) {
-    table#ranking__tabla>tbody>tr>td.ranking__puntos{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__puntos,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__puntos{
         font-size: 14px;
         padding: 0 40px;
     }
 }
 
 @media (min-width: 1024px) {
-    table#ranking__tabla>tbody>tr>td.ranking__puntos{
+    table#ranking__tablaMensual>tbody>tr>td.ranking__puntos,
+    table#ranking__tablaTodos>tbody>tr>td.ranking__puntos{
         font-size: 16px;
         padding: 0 40px;
     }
 }
 
-#ranking__input-buscar {
+#ranking__input-buscarMensual,
+#ranking__input-buscarTodos {
     background-image: url('../../images/chances-acumuladas/chances__btnBuscar.jpg');
     background-position: 0% 50%;
     background-repeat: no-repeat;
@@ -2227,20 +2268,23 @@ table#ranking__tabla>tbody>tr>td.ranking__puntos{
 
 
 @media (min-width: 768px) {
-    #ranking__input-buscar {
+    #ranking__input-buscarMensual,
+    #ranking__input-buscarTodos  {
         font-size: 18px;
         padding: 15px 20px 15px 90px;
     }
 }
 
 @media (min-width: 1024px) {
-    #ranking__input-buscar {
+    #ranking__input-buscarMensual,
+    #ranking__input-buscarTodos  {
         font-size: 18px;
         padding: 20px 20px 20px 110px;
     }
 }
 
-#ranking__input-buscar::placeholder {
+#ranking__input-buscarMensual::placeholder,
+#ranking__input-buscarTodos::placeholder {
     color: #fff;
 }
 
@@ -2250,4 +2294,11 @@ table#ranking__tabla>tbody>tr>td.ranking__puntos{
 
 .tablaHide{
     display: none!important;
+}
+
+#ranking__periodo{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #CCCCCC;
+    background-color: rgb(248, 248, 248);
 }

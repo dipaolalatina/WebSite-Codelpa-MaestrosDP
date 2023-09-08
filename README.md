@@ -56,6 +56,8 @@
 
 - [Oportunidades Acumuladas](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/oportunidades-acumuladas/)
 
+- [Ranking](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/ranking/)
+
 - Emails
     - Plantillas:
         - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/capacitacion.html)
