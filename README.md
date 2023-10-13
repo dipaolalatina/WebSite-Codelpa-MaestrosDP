@@ -75,7 +75,8 @@
             - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/01_newsletter/index.html)
             - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/03_tips/index.html)
         - Noviembre:
-            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/02_capacitacion/index.html)
-            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/01_newsletter/index.html)
-            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/03_tips/index.html)
             - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/01_trivias/index.html)
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/02_capacitacion/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/03_tips/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/04_newsletter/index.html)          
+            
