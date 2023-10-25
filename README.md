@@ -34,6 +34,7 @@
         - [Julio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/julio.html)
         - [Agosto](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/agosto.html)
         - [Septiembre](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/septiembre.html)
+        - [Octubre](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/octubre.html)
     - 2022
         - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2022/abril.html)
         - [Junio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2022/junio.html)
