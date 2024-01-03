@@ -7,6 +7,8 @@
 - [Capacítate](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/capacitate/)
 
 - Destacados
+    - 2024
+        - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/enero.html)
     - 2023
         - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/enero.html)
         - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/abril.html)
