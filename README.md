@@ -70,24 +70,28 @@
         - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/capacitacion.html)
         - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/newsletter.html)
         - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/tips.html)
+    - 2024
+        - Enero:
+            - [Nuevo Premio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/01_nuevoPremio/index.html)
+            - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/02_trivias/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/03_newsletter/index.html)
     - 2023
-        - Septiembre:
-            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/02_capacitacion/index.html)
-            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/01_newsletter/index.html)
-            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/03_tips/index.html)
-            - [Saludo Fiestas Patrias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/04_saludo-fiestas/index.html)
-        - Octubre:
-            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/02_capacitacion/index.html)
-            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/01_newsletter/index.html)
-            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/03_tips/index.html)
+        - Diciembre:
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/01_capacitacion/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/02_tips/index.html)
+            - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/03_trivias/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/04_newsletter/index.html)
         - Noviembre:
             - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/01_trivias/index.html)
             - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/02_capacitacion/index.html)
             - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/03_tips/index.html)
             - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/11_noviembre/04_newsletter/index.html)
-        - Diciembre:
-            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/01_capacitacion/index.html)
-            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/02_tips/index.html)
-            - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/03_trivias/index.html)
-            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/04_newsletter/index.html)       
-            
+        - Octubre:
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/02_capacitacion/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/01_newsletter/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/10_octubre/03_tips/index.html)
+        - Septiembre:
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/02_capacitacion/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/01_newsletter/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/03_tips/index.html)
+            - [Saludo Fiestas Patrias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/09_septiembre/04_saludo-fiestas/index.html)      
