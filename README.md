@@ -30,6 +30,8 @@
         - [Diciembre](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/diciembre.html)
 
 - Tips
+    - 2024
+        - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2024/enero.html)
     - 2023
         - [Febrero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/febrero.html)
         - [Marzo](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/tips/2023/marzo.html)
@@ -77,6 +79,7 @@
             - [Nuevo Premio](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/01_nuevoPremio/index.html)
             - [Trivias](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/02_trivias/index.html)
             - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/03_newsletter/index.html)
+            - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/01_enero/04_tips/index.html)
     - 2023
         - Diciembre:
             - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2023/12_diciembre/01_capacitacion/index.html)
