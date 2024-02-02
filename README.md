@@ -9,6 +9,7 @@
 - Destacados
     - 2024
         - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/enero.html)
+        - [Febrero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/febrero.html)
     - 2023
         - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/enero.html)
         - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/abril.html)
