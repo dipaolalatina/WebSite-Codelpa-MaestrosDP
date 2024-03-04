@@ -77,6 +77,8 @@
         - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/newsletter.html)
         - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/plantillas/tips.html)
     - 2024
+        - Marzo:
+            - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/03_marzo/01_capacitacion/index.html)
         - Febrero:
             - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/02_febrero/01_tips/index.html)
             - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/02_febrero/03_newsletter/index.html)
