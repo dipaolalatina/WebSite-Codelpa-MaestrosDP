@@ -81,6 +81,7 @@
     - 2024
         - Marzo:
             - [Capacitación](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/03_marzo/01_capacitacion/index.html)
+            - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/03_marzo/02_newsletter/index.html)
         - Febrero:
             - [Tips](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/02_febrero/01_tips/index.html)
             - [Newsletter](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/emails/2024/02_febrero/03_newsletter/index.html)
