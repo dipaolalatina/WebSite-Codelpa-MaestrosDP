@@ -11,6 +11,7 @@
         - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/enero.html)
         - [Febrero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/febrero.html)
         - [Marzo](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/marzo.html)
+        - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2024/abril.html)
     - 2023
         - [Enero](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/enero.html)
         - [Abril](https://dipaolalatina.github.io/WebSite-Codelpa-MaestrosDP/destacados/2023/abril.html)
